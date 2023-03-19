@@ -1,0 +1,5 @@
+<div class="task" (click) = "onToggle(task)">
+    <h3>{{task.text}}</h3>
+    <fa-icon (click) = "onDelete(task)"[ngStyle]="{color : 'red'}" >x</fa-icon>
+    <p>{{task.day}}</p>
+</div>
